@@ -1,5 +1,6 @@
 package Class1;
 
+import Helper.Misc;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -49,11 +50,7 @@ public class UseSelenium {
          *          and goes to execute the next line in the code.
          */
 
-        try {
-            Thread.sleep(5000);         // 1sec = 1000 milliseconds
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        Misc.sleep(5);
 
         /**
          * Method to maximize the webpage
