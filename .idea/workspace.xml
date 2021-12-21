@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d2124dcc-e8b3-4766-9531-c468bfdbb4b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Class1/UseSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Class1/UseSelenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Class2/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Class2/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Class2/WebElements_DOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Class2/WebElements_DOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Web/UseDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Web/UseDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Class3" />
       <recent name="Class2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -49,35 +52,18 @@
       <recent name="$PROJECT_DIR$/Drivers/Chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UseSelenium_2.refreshWebPage">
-    <configuration name="BasicTestcases" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.UseLocators_2.usingXPath">
+    <configuration name="UseLocators_2.checkCreatePageLinkDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2021_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class1.*" />
+          <option name="PATTERN" value="Class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Class1" />
-      <option name="MAIN_CLASS_NAME" value="Class1.BasicTestcases" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasicTestcases.VerifyFacebookUrl" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Fall2021_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Class1" />
-      <option name="MAIN_CLASS_NAME" value="Class1.BasicTestcases" />
-      <option name="METHOD_NAME" value="VerifyFacebookUrl" />
+      <option name="PACKAGE_NAME" value="Class3" />
+      <option name="MAIN_CLASS_NAME" value="Class3.UseLocators_2" />
+      <option name="METHOD_NAME" value="checkCreatePageLinkDisplayed" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -85,17 +71,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTestcases.verifyFacebookTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UseLocators_2.checkEnabled" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2021_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class1.*" />
+          <option name="PATTERN" value="Class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Class1" />
-      <option name="MAIN_CLASS_NAME" value="Class1.BasicTestcases" />
-      <option name="METHOD_NAME" value="verifyFacebookTitle" />
+      <option name="PACKAGE_NAME" value="Class3" />
+      <option name="MAIN_CLASS_NAME" value="Class3.UseLocators_2" />
+      <option name="METHOD_NAME" value="checkEnabled" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,17 +89,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseSelenium_2.refreshWebPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UseLocators_2.checkSelected" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2021_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class2.*" />
+          <option name="PATTERN" value="Class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Class2" />
-      <option name="MAIN_CLASS_NAME" value="Class2.UseSelenium_2" />
-      <option name="METHOD_NAME" value="refreshWebPage" />
+      <option name="PACKAGE_NAME" value="Class3" />
+      <option name="MAIN_CLASS_NAME" value="Class3.UseLocators_2" />
+      <option name="METHOD_NAME" value="checkSelected" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,17 +107,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseSelenium_2.useSelenium_2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UseLocators_2.useLinkLocator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2021_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class2.*" />
+          <option name="PATTERN" value="Class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Class2" />
-      <option name="MAIN_CLASS_NAME" value="Class2.UseSelenium_2" />
-      <option name="METHOD_NAME" value="useSelenium_2" />
+      <option name="PACKAGE_NAME" value="Class3" />
+      <option name="MAIN_CLASS_NAME" value="Class3.UseLocators_2" />
+      <option name="METHOD_NAME" value="useLinkLocator" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseLocators_2.usingXPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Fall2021_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Class3" />
+      <option name="MAIN_CLASS_NAME" value="Class3.UseLocators_2" />
+      <option name="METHOD_NAME" value="usingXPath" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UseSelenium_2.refreshWebPage" />
-        <item itemvalue="TestNG.UseSelenium_2.useSelenium_2" />
-        <item itemvalue="TestNG.BasicTestcases" />
-        <item itemvalue="TestNG.BasicTestcases.verifyFacebookTitle" />
-        <item itemvalue="TestNG.BasicTestcases.VerifyFacebookUrl" />
+        <item itemvalue="TestNG.UseLocators_2.usingXPath" />
+        <item itemvalue="TestNG.UseLocators_2.checkSelected" />
+        <item itemvalue="TestNG.UseLocators_2.checkCreatePageLinkDisplayed" />
+        <item itemvalue="TestNG.UseLocators_2.checkEnabled" />
+        <item itemvalue="TestNG.UseLocators_2.useLinkLocator" />
       </list>
     </recent_temporary>
   </component>
@@ -167,26 +171,26 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1346" y="345" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1639616275765" />
-    <state width="1837" height="405" key="GridCell.Tab.0.bottom" timestamp="1639786827464">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1837" height="397" key="GridCell.Tab.0.bottom" timestamp="1640054373266">
+      <screen x="-1920" y="23" width="1920" height="1008" />
     </state>
-    <state width="1437" height="405" key="GridCell.Tab.0.bottom/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1639784776752" />
-    <state width="1837" height="405" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1639786827464" />
-    <state width="1837" height="405" key="GridCell.Tab.0.center" timestamp="1639786827461">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1837" height="397" key="GridCell.Tab.0.bottom/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640054373266" />
+    <state width="1837" height="397" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1640051461665" />
+    <state width="1837" height="397" key="GridCell.Tab.0.center" timestamp="1640054373265">
+      <screen x="-1920" y="23" width="1920" height="1008" />
     </state>
-    <state width="1437" height="405" key="GridCell.Tab.0.center/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1639784776751" />
-    <state width="1837" height="405" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1639786827461" />
-    <state width="1837" height="405" key="GridCell.Tab.0.left" timestamp="1639786827460">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1837" height="397" key="GridCell.Tab.0.center/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640054373265" />
+    <state width="1837" height="397" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1640051461664" />
+    <state width="1837" height="397" key="GridCell.Tab.0.left" timestamp="1640054373265">
+      <screen x="-1920" y="23" width="1920" height="1008" />
     </state>
-    <state width="1437" height="405" key="GridCell.Tab.0.left/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1639784776750" />
-    <state width="1837" height="405" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1639786827460" />
-    <state width="1837" height="405" key="GridCell.Tab.0.right" timestamp="1639786827463">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1837" height="397" key="GridCell.Tab.0.left/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640054373265" />
+    <state width="1837" height="397" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1640051461663" />
+    <state width="1837" height="397" key="GridCell.Tab.0.right" timestamp="1640054373266">
+      <screen x="-1920" y="23" width="1920" height="1008" />
     </state>
-    <state width="1437" height="405" key="GridCell.Tab.0.right/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1639784776752" />
-    <state width="1837" height="405" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1639786827463" />
+    <state width="1837" height="397" key="GridCell.Tab.0.right/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640054373266" />
+    <state width="1837" height="397" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1640051461664" />
     <state width="1837" height="329" key="GridCell.Tab.1.bottom" timestamp="1639786578012">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -203,6 +207,10 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1837" height="329" key="GridCell.Tab.1.right/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1639786578010" />
+    <state x="-1443" y="129" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1640047574070">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1443" y="129" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1640047574070" />
     <state x="-1302" y="292" width="667" height="486" key="find.popup" timestamp="1639621461607">
       <screen x="-1920" y="23" width="1920" height="1008" />
     </state>

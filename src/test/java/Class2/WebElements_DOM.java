@@ -113,7 +113,23 @@ public class WebElements_DOM {
      * ancestor (tags in family chain in dom before the tag)
      * ancestor of a --> tag4, tag1
      * ancestor of subTag --> tag3, tag2, tag1
-     *
+
+     * <tag1 attr1="value1" attr2="value2" attr3="value3" attr4="value4">
+     *     <tag2 id="abcd" data-text-id="unique data" attr3="value3" attr4="value4">
+     *         <tag3>Not Unique Text
+     *              <subTag attr1="value1" attr2="value2" attr3="value3" attr4="value4">Unique Text</subTag>
+     *         </tag3>
+     *         <tag11 attr1="value1" attr2="value2" attr3="value3" attr4="value4">Unique Text</tag11>
+     *         <tag21 attr1="value1" attr2="value2" attr3="value3" attr4="value4">Unique Text</tag21>
+     *     </tag2>
+     *     <tag4 attr1="value1" attr2="value2" attr3="value3" attr4="value4">
+     *         <a attr1="value1" attr2="value2">Unique Text</tag>
+     *         <subTag attr1="value1" attr2="value2" attr3="value3" attr4="value4">Unique Text</subTag>
+     *     </tag4>
+     *     <tag6 attr1="value1" attr2="value2" attr3="value3" attr4="value4">
+     *          <tag7 attr1="value1" attr2="value2" attr3="value3" attr4="value4"></tag>
+     *     </tag6>
+     * </tag1>
      */
 
 

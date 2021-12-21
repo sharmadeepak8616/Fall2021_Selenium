@@ -29,9 +29,15 @@ public class Locators {
          *      In chropath, check if id is unique --> //*[@id='idValue']
          *      By locatorUsingId = By.id("idValue");
          *
+         *      eg:
+         *      By loginEmailLocator = By.id("email");
+         *
          * 2. name attribute
          *      In chropath, check if name is unique --> //*[@name='nameValue']
          *      By locatorUsingName = By.name("nameValue")
+         *
+         *      eg:
+         *      By loginPasswordLocator = By.name("pass");
          *
          */
 
