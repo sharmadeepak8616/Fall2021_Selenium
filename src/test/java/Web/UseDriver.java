@@ -1,5 +1,6 @@
 package Web;
 
+import Helper.Misc;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,6 +12,7 @@ public class UseDriver {
         System.setProperty("webdriver.chrome.driver" , "Drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get(url);
+        Misc.sleep(2);
     }
 
 
