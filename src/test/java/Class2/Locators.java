@@ -39,6 +39,8 @@ public class Locators {
          *      eg:
          *      By loginPasswordLocator = By.name("pass");
          *
+         * --> ....continue in "src/test/java/Class3/Locators_2.java"
+         *
          */
 
 

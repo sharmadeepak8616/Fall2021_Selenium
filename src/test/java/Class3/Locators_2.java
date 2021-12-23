@@ -58,7 +58,7 @@ public class Locators_2 {
          *      By locatorUsingPartialLinkText = By.partialLinkText("Link Tex")
          *
          * 7. Xpath
-         *
+         *      In chropath, create x-path to find the webElement
          *      By locatorUsingXpath = By.xpath("//xpath to find webElement")
          *
          *
@@ -115,6 +115,8 @@ public class Locators_2 {
          *      --> find the tag in dom, where text-value contains "Text Val"
          * eg:
          *      //button[contains(text() , 'Log')]
+         *
+         * --> ....continue in "src/test/java/Class4/Locators_3.java"
          */
 
     }

@@ -4,8 +4,7 @@
     <list default="true" id="d2124dcc-e8b3-4766-9531-c468bfdbb4b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Class2/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Class2/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Class2/WebElements_DOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Class2/WebElements_DOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Web/UseDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Web/UseDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Class3/Locators_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Class3/Locators_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Class4" />
       <recent name="Class3" />
       <recent name="Class2" />
     </key>
@@ -52,7 +52,43 @@
       <recent name="$PROJECT_DIR$/Drivers/Chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UseLocators_2.usingXPath">
+  <component name="RunManager" selected="TestNG.Dropdowns.dropDowns">
+    <configuration name="Dropdowns.dropDowns" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Fall2021_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Class4" />
+      <option name="MAIN_CLASS_NAME" value="Class4.Dropdowns" />
+      <option name="METHOD_NAME" value="dropDowns" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetText_GetAttribute.getAttributeMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Fall2021_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Class4" />
+      <option name="MAIN_CLASS_NAME" value="Class4.GetText_GetAttribute" />
+      <option name="METHOD_NAME" value="getAttributeMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UseLocators_2.checkCreatePageLinkDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2021_Selenium" />
       <extension name="coverage">
@@ -71,24 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseLocators_2.checkEnabled" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Fall2021_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Class3" />
-      <option name="MAIN_CLASS_NAME" value="Class3.UseLocators_2" />
-      <option name="METHOD_NAME" value="checkEnabled" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UseLocators_2.checkSelected" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Fall2021_Selenium" />
       <extension name="coverage">
@@ -100,24 +118,6 @@
       <option name="PACKAGE_NAME" value="Class3" />
       <option name="MAIN_CLASS_NAME" value="Class3.UseLocators_2" />
       <option name="METHOD_NAME" value="checkSelected" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseLocators_2.useLinkLocator" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Fall2021_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Class3" />
-      <option name="MAIN_CLASS_NAME" value="Class3.UseLocators_2" />
-      <option name="METHOD_NAME" value="useLinkLocator" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Dropdowns.dropDowns" />
+        <item itemvalue="TestNG.GetText_GetAttribute.getAttributeMethod" />
         <item itemvalue="TestNG.UseLocators_2.usingXPath" />
         <item itemvalue="TestNG.UseLocators_2.checkSelected" />
         <item itemvalue="TestNG.UseLocators_2.checkCreatePageLinkDisplayed" />
-        <item itemvalue="TestNG.UseLocators_2.checkEnabled" />
-        <item itemvalue="TestNG.UseLocators_2.useLinkLocator" />
       </list>
     </recent_temporary>
   </component>
@@ -171,25 +171,25 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1346" y="345" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1639616275765" />
-    <state width="1837" height="397" key="GridCell.Tab.0.bottom" timestamp="1640054373266">
+    <state width="1755" height="377" key="GridCell.Tab.0.bottom" timestamp="1640221811125">
       <screen x="-1920" y="23" width="1920" height="1008" />
     </state>
-    <state width="1837" height="397" key="GridCell.Tab.0.bottom/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640054373266" />
+    <state width="1755" height="377" key="GridCell.Tab.0.bottom/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640221811125" />
     <state width="1837" height="397" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1640051461665" />
-    <state width="1837" height="397" key="GridCell.Tab.0.center" timestamp="1640054373265">
+    <state width="1755" height="377" key="GridCell.Tab.0.center" timestamp="1640221811123">
       <screen x="-1920" y="23" width="1920" height="1008" />
     </state>
-    <state width="1837" height="397" key="GridCell.Tab.0.center/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640054373265" />
+    <state width="1755" height="377" key="GridCell.Tab.0.center/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640221811123" />
     <state width="1837" height="397" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1640051461664" />
-    <state width="1837" height="397" key="GridCell.Tab.0.left" timestamp="1640054373265">
+    <state width="1755" height="377" key="GridCell.Tab.0.left" timestamp="1640221811123">
       <screen x="-1920" y="23" width="1920" height="1008" />
     </state>
-    <state width="1837" height="397" key="GridCell.Tab.0.left/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640054373265" />
+    <state width="1755" height="377" key="GridCell.Tab.0.left/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640221811123" />
     <state width="1837" height="397" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1640051461663" />
-    <state width="1837" height="397" key="GridCell.Tab.0.right" timestamp="1640054373266">
+    <state width="1755" height="377" key="GridCell.Tab.0.right" timestamp="1640221811124">
       <screen x="-1920" y="23" width="1920" height="1008" />
     </state>
-    <state width="1837" height="397" key="GridCell.Tab.0.right/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640054373266" />
+    <state width="1755" height="377" key="GridCell.Tab.0.right/-1920.23.1920.1008/0.23.1280.777@-1920.23.1920.1008" timestamp="1640221811124" />
     <state width="1837" height="397" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1280.728@-1920.23.1920.1057" timestamp="1640051461664" />
     <state width="1837" height="329" key="GridCell.Tab.1.bottom" timestamp="1639786578012">
       <screen x="-1920" y="23" width="1920" height="1057" />
